@@ -1,0 +1,41 @@
+.restaurants-wrapper {
+  max-height: 210px;
+  overflow: scroll;
+  ol {
+    padding-left: 18px;
+    font-family: oswald;
+    font-size: 15px;
+  }
+  h3 {
+    font-family: oswald;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0px;
+    span {
+      color: #d60404;
+    }
+  }
+  .pricing-wrapper{
+    color: green;
+    text-align: left;
+    font-size: 14px;
+    margin: 0;
+    span {
+      font-family: Verdana;
+      color: black;
+    }
+  }
+  a {
+    font-family: oswald;
+    color: #d60404;
+    padding-bottom: 0px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    display: inline-block;
+    display: block;
+    color: black;
+    &.directions {
+      color: red;
+    }
+  }
+}

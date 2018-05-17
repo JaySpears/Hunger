@@ -1,0 +1,13 @@
+// Import styling base.
+@import './../../assets/styles/styles.scss';
+
+header {
+  box-shadow: 1px 1px 1px #000;
+  background-color: white;
+  h1 {
+    font-family: oswald;
+    color: #d60404;
+    padding: 8px 0px 10px 0px;
+    margin: 0;
+  }
+}

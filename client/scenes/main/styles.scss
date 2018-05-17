@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+.flex-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 110px);
+  form {
+    flex-grow: none;
+  }
+}
+
+.map-wrapper {
+  width: 100%;
+  padding-top: 15px;
+}
